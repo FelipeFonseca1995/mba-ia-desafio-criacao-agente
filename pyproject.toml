@@ -1,0 +1,13 @@
+[project]
+name = "mba-ia-desafio-criacao-agente"
+version = "0.1.0"
+description = "Assistente Virtual do Residencial Aurora com Google ADK"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk==2.2.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "aiosqlite>=0.20.0",
+    "python-dotenv>=1.0.1",
+]
